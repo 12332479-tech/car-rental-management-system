@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Page Styling */
+body {
+    background-color: #3c3c3e;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #222224;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #b8b8b8;
+    text-decoration: underline;
+}
+
+/* Main Banner Section */
+.main-banner {
+    background-image: linear-gradient(rgba(7, 12, 30, 0.45), rgba(7, 12, 30, 0.55)), url('main-j.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-content {
+    position: absolute;
+    left: 50px;
+    color: #fff;
+    text-align: left;
+}
+
+.banner-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.banner-content p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.btn {
+    background-color: #f4b860;
+    color: #060c26;
+    padding: 10px 20px;
+    border: 1px solid #f4b860;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0a5ac4;
+    color: #ffffff;
+}
+
+/* About Section */
+.about-section {
+    background-color: #d3d3d3;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.about-section p {
+    font-size: 0.95rem;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+/* Contact Section */
+.contact-section {
+    background-color: #090e2c;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.contact-section p {
+    margin-bottom: 10px;
+}
+
+.contact-section a {
+    color: #f4b860;
+    text-decoration: none;
+}
+
+.contact-section a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+    background-color: #f4b860;
+    color: #000;
+    text-align: center;
+    padding: 20px;
+}
